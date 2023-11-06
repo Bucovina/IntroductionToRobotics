@@ -5,6 +5,7 @@ This repository showcases my journey through the Introduction to Robotics labora
 ## Table of contents
 1. [Homework-1](#Homework-1)
 2. [Homework-2](#Homework-2)
+3. [Homework-3](#Homework-3)
 
 
 ## Homework-1 
@@ -52,3 +53,26 @@ https://youtu.be/1rviJSz7--0
 Image:
 
 ![Homework-2](https://github.com/Bucovina/IntroductionToRobotics/assets/103101131/17556593-1c23-4703-b2fb-9b95cbfefa66)
+
+## Homework-3
+Description:
+
+The journey continues with the implementation of a 7 segment display drawing. We use a 7-segment display as a canvas, and with the help of a joystick, we move through the segments and turn them on and off to draw what we want. A joystick is actually two potentiometers and a button or a switch. Reading the values ​​we receive, we know in which direction to go(up, down, left, right). We have implemented some thresholds in the code so that there are no faulty movements. When we press the joystick, it calls an interrupt function that informs us that the button has been pressed and changes the state of the current segment. If we keep the button pressed for a longer time, all the segments turn off.
+
+Used components:
+
+  • one 7-segment display
+  
+  • one joystick
+  
+  • one buzzer
+  
+  • resistors and wires as needed
+
+Video:
+
+https://youtu.be/L5BbXVPg4Ss
+
+Image:
+
+![Homework-3](https://github.com/Bucovina/IntroductionToRobotics/assets/103101131/58a71837-8a78-4678-91ee-36705080cbf7)
