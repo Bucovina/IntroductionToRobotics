@@ -6,6 +6,7 @@ This repository showcases my journey through the Introduction to Robotics labora
 1. [Homework-1](#Homework-1)
 2. [Homework-2](#Homework-2)
 3. [Homework-3](#Homework-3)
+4. [Homework-4](#homework-4)
 
 
 ## Homework-1 
@@ -76,3 +77,25 @@ https://youtu.be/L5BbXVPg4Ss
 Image:
 
 ![Homework-3](https://github.com/Bucovina/IntroductionToRobotics/assets/103101131/58a71837-8a78-4678-91ee-36705080cbf7)
+
+## Homework-4
+Description:
+
+The following challenge consists of the implementation of a stopwatch. We use a 4 7-segment display and three buttons. Since the 4 7-segment display has 12 pins, we use a shift register to send a serial signal as input and to obtain a parallel signal as output in this way saving some pins of the Arduino. The first button starts and pauses the timer, the second one resets the timer if in pause mode and resets the saved laps, if in lap viewing mode, and the last one saves the laps if the stopwatch is in counting mode or cycles through the last saved laps (up to 4 laps) if in lap viewing mode.
+
+Used components:
+
+  • one 7-segment display
+
+  • three buttons
+
+  • one shift register
+
+  • resistors and wires as needed
+
+Video:
+
+https://youtu.be/EmrBHu0CKMo
+
+Image:
+
