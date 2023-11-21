@@ -7,6 +7,7 @@ This repository showcases my journey through the Introduction to Robotics labora
 2. [Homework-2](#Homework-2)
 3. [Homework-3](#Homework-3)
 4. [Homework-4](#homework-4)
+5. [Homework-5](#homework-5)
 
 
 ## Homework-1 
@@ -100,3 +101,27 @@ https://youtu.be/EmrBHu0CKMo
 Image:
 ![Homework-4](https://github.com/Bucovina/IntroductionToRobotics/assets/103101131/a4f87675-62b1-4be8-917e-8928ff38e71d)
 
+
+## Homework-5
+Description:
+
+The next stage of the journey consists of implementing a ”Smart Environment Monitor and Logger” using Arduino. We use a serial menu to navigate through the options: we can choose a sampling rate and a threshold value for each sensor. We have the option to view the saved data from the sensors and even delete this saved data. Also, we can decide if we want to see the data in real-time or the current settings the sensors are working on. We can choose if the LED is in Automatic mode( if all the sensors meet the threshold requirements, the LED is green, but if not, the LED is red) or in Manual mode( we can choose a custom color for the LED). We use EEPROM (Electrically Erasable Programmable Read-Only Memory) in order to save the values of the thresholds, sampling rate, LED custom color, and mode.
+
+Used components:
+
+  • one ultrasonic sensor
+  
+  • one ldr sensor
+  
+  • one pressure sensor
+  
+  • one RGB LED
+  
+  • resistors and wires as needed
+
+Video:
+
+https://youtu.be/81OM5VwDpT4
+
+Image:
+![Homework-5](https://github.com/Bucovina/IntroductionToRobotics/assets/103101131/0e330560-8ea2-441a-b71a-0c95aaff4afa)
