@@ -8,6 +8,7 @@ This repository showcases my journey through the Introduction to Robotics labora
 3. [Homework-3](#Homework-3)
 4. [Homework-4](#homework-4)
 5. [Homework-5](#homework-5)
+6. [Homework-6](#homework-6)
 
 
 ## Homework-1 
@@ -125,3 +126,31 @@ https://youtu.be/81OM5VwDpT4
 
 Image:
 ![Homework-5](https://github.com/Bucovina/IntroductionToRobotics/assets/103101131/0e330560-8ea2-441a-b71a-0c95aaff4afa)
+
+## Homework-6
+Description:
+
+This next task marks the beginning of a greater mission: the development of a game. Now, we are preparing the basics for this game, through the implementation of a smaller and simpler game: a Bomberman replica. We use an 8x8 LED matrix for the screen, a joystick for player movement, a button to place bombs, and a buzzer to mark the bomb's explosion. The player is a dot that blinks slowly on the matrix and can move around it. Our goal is to destroy all the walls on the map(without dying in the process), represented by dots that do not blink using bombs, rapidly blinking dots . To use the LED matrix we need MAX7219(an integrated circuit).
+
+Used components:
+
+  • one joystick
+  
+  • one 8x8 led matrix
+  
+  • one MAX7219
+  
+  • one button
+  
+  • one buzzer
+  
+  • resistors and wires as needed
+
+Video:
+
+https://youtu.be/9Z7CiHrCli8
+
+Image:
+
+![Homework-6](https://github.com/Bucovina/IntroductionToRobotics/assets/103101131/610942d7-ba76-4ef9-9e6d-3b8580f857d2)
+
