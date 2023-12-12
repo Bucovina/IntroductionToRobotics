@@ -9,6 +9,7 @@ This repository showcases my journey through the Introduction to Robotics labora
 4. [Homework-4](#homework-4)
 5. [Homework-5](#homework-5)
 6. [Homework-6](#homework-6)
+7. [Homework-7](#homework-7)
 
 
 ## Homework-1 
@@ -154,3 +155,38 @@ Image:
 
 ![Homework-6](https://github.com/Bucovina/IntroductionToRobotics/assets/103101131/610942d7-ba76-4ef9-9e6d-3b8580f857d2)
 
+
+## Homework-7
+Description:
+
+We continued the mission we started the last homework, creating a game. We added an LCD to have a menu in which we can start the game, see the high scores, modify some settings, see info about the game and the creator of the game, and a short guide on how to play the game. We also use the LCD for the game HUD, which has valuable info about the current game, such as score, remaining walls, the directions, in which we can go, and, the type of the bomb we use. We save all the settings in EEPROM to use them between restarts. We put the build inside a food container with some cuts on top to get the joystick, LED matrix, LCD, and the three buttons through its lid. This way, we simulate a portable console(but there is still some work in progress).
+
+Used components:
+
+  • one joystick
+  
+  • one 8x8 led matrix
+  
+  • one MAX7219
+
+  • one LCD
+  
+  • one HD44780U
+  
+  • three buttons
+  
+  • one potentiometer
+
+  • one buzzer
+
+  • one food canister =)
+   
+  • resistors and wires as needed
+
+Video:
+
+https://youtu.be/8sRXjBe7SMo
+
+Image:
+
+![Homework-7](https://github.com/Bucovina/IntroductionToRobotics/assets/103101131/7997b0e8-6e3d-49a3-9213-23ed3eda7fd5)
